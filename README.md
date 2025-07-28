@@ -17,7 +17,6 @@
 
 - IBM Cloud IDE
 - IBM Watson NLP Library
-- OpenAI account
 
 ## Features
 
