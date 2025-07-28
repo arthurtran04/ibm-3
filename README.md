@@ -64,4 +64,4 @@ To stop the application, use `Ctrl + C` in the Terminal
 
 ## License
 
-This project is licensed under the Apache 2.0 License. See the LICENSE file for more details.
+This project is licensed under the Apache-2.0 License. See the LICENSE file for more details.
