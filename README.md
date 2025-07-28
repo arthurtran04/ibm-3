@@ -1,4 +1,4 @@
-# Voice Assistant
+<div align="center"><h1>🎤 Voice Assistant</h1></div>
 
 ## Introduction
 
@@ -48,7 +48,11 @@ To start the Flask application, run the `cd` command to change the directory to 
    ```
 In the Skills Network Toolkit, launch your application at the port `8000`:
 
-<img width="600rem" alt="Webpage" src="" />
+<div align="center"><img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/afaef88c-98fc-4c04-bf54-29f9cd4e2d91" /></div>
+
+You can choose the character voice you like, then use your voice to ask questions. The assistant will respond in the voice of the character you chose:
+
+<div align="center"><img width="600rem" alt="Example" src="https://github.com/user-attachments/assets/6fa5d8df-d5ca-4d17-969b-09fd847f5f39" /></div>
 
 To stop the application, use `Ctrl + C` in the Terminal
 
