@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+This repository is a fork of IBM's "Chat App with Voice and OpenAI Outline" project. It is designed to showcase how to build a modern chat application that integrates voice capabilities and leverages OpenAI's services to enhance user interaction. The project is primarily developed in JavaScript and is licensed under the Apache License 2.0, making it accessible for modification and use by the open-source community.
 
 ## Table of Contents
 
@@ -19,7 +19,13 @@
 
 ## Features
 
-
+- Real-time chat functionality
+- Voice integration for sending and receiving messages
+- Integration with OpenAI for enhanced conversational experiences
+- Modular JavaScript codebase
+- Open-source Apache 2.0 license
+- Based on IBM’s developer skills network outline
+- Easy to fork, modify, and extend
 
 ## Installation
 
@@ -58,4 +64,4 @@ To stop the application, use `Ctrl + C` in the Terminal
 
 ## License
 
-This project is licensed under the Apache-2.0 License. See the LICENSE file for more details.
+This project is licensed under the Apache 2.0 License. See the LICENSE file for more details.
