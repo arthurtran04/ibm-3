@@ -1,4 +1,4 @@
-<div align="center"><h1>🎤 Voice Assistant</h1></div>
+<h1 align="center">🎤 Voice Assistant</h1>
 
 ## Introduction
 
