@@ -29,7 +29,7 @@ This repository is a fork of IBM's "Chat App with Voice and OpenAI Outline" proj
 
 ```mermaid
 flowchart TD
-    A[User] -- voice message --> B[Flask Web Server<br/>#40;server.py#41;]
+    A[User<br/>#40;Web Browser#41;] -- voice message --> B[Flask Web Server<br/>#40;server.py#41;]
     B --> C[Worker<br/>#40;worker.py#41;]
     C --> D[STT<br/>#40;Watsonx#41;]
     D -- message --> E[LLM<br/>#40;GPT-3.5 Turbo#41;]
