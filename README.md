@@ -8,6 +8,8 @@ This repository is a fork of IBM's "Chat App with Voice and OpenAI Outline" proj
 
 - [Introduction](#introduction)
 - [Prerequirements](#prerequirements)
+- [Model](#model)
+- [Architecture](#architecture)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,6 +18,26 @@ This repository is a fork of IBM's "Chat App with Voice and OpenAI Outline" proj
 ## Prerequirements
 
 - Skills Network Labs
+
+## Model
+
+- Speech to text (STT): Model by IBM Watsonx
+- Text to speech (TTS): Model by IBM Watsonx
+- Process message: GPT-3.5 Turbo by OpenAI
+
+## Architecture
+
+```mermaid
+flowchart TD
+    A[User] -- voice message --> B[Flask Web Server<br/>#40;server.py#41;]
+    B --> C[Worker<br/>#40;worker.py#41;]
+    C --> D[STT<br/>#40;Watsonx#41;]
+    D -- message --> E[LLM<br/>#40;GPT-3.5 Turbo#41;]
+    E -- response --> F[TTS<br/>#40;Watsonx#41;]
+    F --> C
+    C --> B
+    B -- voice response --> A
+```
 
 ## Features
 
